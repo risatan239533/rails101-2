@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
   def index
-    flash[:natice] = "早安，你好"
-end
+    flash[:warning] = "这是waring信息"
+  end
 end
